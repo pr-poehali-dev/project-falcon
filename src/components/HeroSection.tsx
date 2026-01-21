@@ -83,6 +83,13 @@ export default function HeroSection() {
                 >
                   Связаться с нами
                 </a>
+                <a
+                  href="/auth"
+                  className="flex items-center gap-2 rounded-lg border-2 border-foreground px-8 py-4 text-lg font-semibold text-foreground transition-all hover:bg-foreground/10"
+                >
+                  <Icon name="LogIn" size={20} />
+                  Войти
+                </a>
               </div>
             </div>
 
