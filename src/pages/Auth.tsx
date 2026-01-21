@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import LoginForm from '@/components/extensions/auth-email/LoginForm';
 import RegisterForm from '@/components/extensions/auth-email/RegisterForm';
 import UserProfile from '@/components/extensions/auth-email/UserProfile';
-import useAuth from '@/components/extensions/auth-email/useAuth';
+import { useAuth } from '@/components/extensions/auth-email/useAuth';
 
 const AUTH_URL = 'https://functions.poehali.dev/69683eae-44a5-4547-835a-5e3431cb8c17';
 
